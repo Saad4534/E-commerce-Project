@@ -1,0 +1,86 @@
+<!doctype html>
+ 
+<html>
+<head>
+    
+    <link href="e-commerce.css" rel="stylesheet">
+
+    <title>Biling.html</title>
+  
+</head>
+  
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar fixed-top ">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="sr-only">Toggle Navigation</span>
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <span class="navbar-brand mb-0 h1" ><big><a href="index.html">My E-commerce website name</a></big></span>
+            </div>
+              
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a ></li>
+                    <li class="nav-item"><a class="nav-link" href="details.html">Cart</a ></li>
+                    <li class="nav-item"><a class="nav-link" href="user.html">User</a ></li>
+                    <li class="nav-item"><a class="nav-link" href="login-sign-in.html">Sign Out</a></li>
+                </ul>
+                
+            </div>
+        </div>
+        
+    </nav>
+    
+      
+    <main>
+        <form class="form-signin" style="margin-top: 100px;">
+            <div class="container items-background">
+                <h3 class="mb-3">Confirm your order</h3>
+                <p class="lead" style="margin-left: 390px;"></p>
+                <div class="row">  
+                    <div class="col-sm-4 offset-1">
+                        <div class="text-left mb-4">
+                            <h3 class="mb-3">Delivery Details</h3>
+                        </div>
+                        
+                        <div class="form-label-group">
+                            <input type="text" placeholder="your full name" class="form-control">
+                            <label>Full Name</label>
+                        </div>
+                         
+                        <div class="form-label-group">
+                            <input type="text" placeholder="your address" class="form-control">
+                            <label>Address</label>
+                        </div>
+                    </div>
+                    
+                    <div class="col-sm-4 offset-2">
+                        <div class="text-left mb-4">
+                            <h3 class="mb-3">Payment Details</h3>
+                        </div>
+                        
+                        <div class="form-label-group">
+                            <label>Payment type</label><br>
+                            <input type="radio" name="payment_type">By Cash<br>
+                            <input type="radio" name="payment_type">By Credit Card<br><br>
+                        </div>
+                        
+                        
+                        <div class="form-label-group">
+                            <textarea class="form-control"rows="4" cols="10"></textarea>
+                            <label>Remarks</label>
+                        </div>
+                        
+                        <button class=" float-right btn btn-warning btn-lg "type="submit"><a href="index.html">Confirm</a></button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </main>
+</body>
+    
+</html>
+        
+        
